@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;  /* Full screen height */
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;  /* Space between cards */
+}
+
+.project-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
